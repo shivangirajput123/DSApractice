@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <form>
+            <input type="text" id="number" value="0">
+            <input type="button" onclick="Icreament()" value="button">
+        </form>
+    </body>
+    <script>
+        function Icreament(){
+            var value=parseInt(document.getElementById('number').value,0);
+            if(value = isNaN(value)?0:value)
+            value++;
+            document.getElementById('number').value=value;
+
+        }
+    </script>
+</html>

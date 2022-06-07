@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka One', cursive;
+    background-image: linear-gradient(to right, rgb(181, 59, 161), rgb(25, 25, 174));
+}
+
+.container{
+    padding: 8px;
+    margin: auto;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 75px;
+    padding: 10px;
+}
+
+#input{
+    width: 50%;
+    height: 30px;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    transition: 1s;
+    margin: auto;
+    padding: 10px;
+    border: 2px black;
+    border-bottom-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+input i{
+    padding: 10px;
+    margin: auto;
+}

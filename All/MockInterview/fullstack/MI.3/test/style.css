@@ -1,0 +1,25 @@
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: #fff;
+    margin: 0%;
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    justify-content: center;    
+    align-items: center;   
+    
+}
+#img{
+    cursor: pointer;
+    column-gap: -1px;  
+    row-gap: -5px;  
+}
+
+#img:hover{
+    opacity: .5;
+}
